@@ -66,7 +66,7 @@ interface WeatherData {
   };
 }
 
-export default function page() {
+export default function WeatherPage() {
   const [place, setPlace] = useAtom(placeAtom);
   const [loadingCity] = useAtom(loadingCityAtom);
 
